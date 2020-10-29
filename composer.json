@@ -1,0 +1,30 @@
+{
+  "name": "carvalho/bb_signature",
+  "description": "Assinatura Digital em arquivos PDF",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Carlos Mateus Carvalho",
+      "email": "carvalho.ti.adm@gmail.com",
+      "homepage": "https://carvalhosjs.github.io/",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "tecnickcom/tcpdf": "6.3.5",
+    "setasign/fpdf" : "1.8.2",
+    "setasign/fpdi" : "2.3.3"
+  }
+}
